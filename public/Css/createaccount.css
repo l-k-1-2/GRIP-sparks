@@ -21,13 +21,17 @@ input[type=number] {
 
 h1{
     color: #F7D4AB;
+    font-weight: 600 !important;
 }
 
 .input{
-    margin-left: 29.75%;
-    padding:20px 0px 10px 20px;
-    border: 2px solid #F7D4AB;
+    padding:0px 0px 10px 0px;
     border-radius: 5px;
+}
+
+table{
+    margin: 0 auto 0 auto;
+    text-align: left;
 }
 label{
     color: white;
@@ -56,11 +60,11 @@ td{
 button{
     background-color: #F7D4AB;
     color: #060A11;
-    margin-left: 15%;
-    padding: 8px 50px 8px 50px;
+    padding: 8px 50px 10px 50px;
     border: 2px solid #F7D4AB;
     border-radius: 5px !important;
     font-size: 1.1rem !important;
+    font-weight: 600 !important;
 }
 
 button:hover{

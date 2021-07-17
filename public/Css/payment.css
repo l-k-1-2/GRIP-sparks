@@ -14,6 +14,7 @@ h2{
 }
 .status{
     color: red;
+    font-size: 1.2rem;
 }
 table{
     border-spacing: 5px;
@@ -54,6 +55,18 @@ input, select {
 input:focus {
     color: #ffff;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 
 button{
     padding: 8px 50px 8px 50px;
