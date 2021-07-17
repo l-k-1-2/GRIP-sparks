@@ -1,0 +1,17 @@
+body{
+    background-color: #060A11 !important;
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    text-align: center;
+}
+p{
+    color: white;
+}
+h2{
+    color: #F7D4AB;
+    font-weight: 600 !important;
+}
+img{
+    width: 25%;
+}
