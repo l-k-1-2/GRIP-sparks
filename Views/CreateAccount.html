@@ -70,10 +70,24 @@
           </tr>
         </table>
         <br>
-        <button>Create User</button>
+        <button type="button" onclick="verify()">Create User</button>
       </form>
     </div>
   </div>
+
+  <script>
+    function verify() {
+      var ip=document.getElementsByTagName('input');
+      for(var i=0; i<ip.length; i++)
+      {
+        if(ip[i].value =="")
+        {
+          alert("Empty fields are not accepted");
+          break;
+        }
+      }
+    }
+  </script>
 </body>
 
 </html>
