@@ -101,7 +101,7 @@ async function update(collection, sender, reciever, amount) {
 var results, sender, reciever;
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/views/homepage.html')
+    res.sendFile(__dirname + '/Views/homepage.html')
 });
 
 app.get("/Sender", async (req, res) => {
