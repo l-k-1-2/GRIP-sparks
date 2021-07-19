@@ -52,7 +52,7 @@
     <h1>Add User</h1>
     <br> <br>
     <div class="input">
-      <form action="/CreateUser" method="POST">
+      <form action="/CreateUser" method="POST" id="form">
         <table>
           <tr>
             <td> <label for="name">Name</label> </td>
@@ -78,14 +78,18 @@
   <script>
     function verify() {
       var ip=document.getElementsByTagName('input');
+      var c=0;
       for(var i=0; i<ip.length; i++)
       {
         if(ip[i].value =="")
         {
           alert("Empty fields are not accepted");
+          c++;
           break;
         }
       }
+      if(c==0)
+      document.getElementById('form').submit();
     }
   </script>
 </body>
