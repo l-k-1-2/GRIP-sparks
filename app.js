@@ -4,7 +4,7 @@ const {
 const express = require("express");
 const bodyParser = require('body-parser');
 var app = express();
-var uri = "mongodb+srv://mydatabase:mydatabase@cluster0.ozajz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+var uri = "mongodb+srv://*******:*******@cluster0.ozajz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 app.use('/', express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({
